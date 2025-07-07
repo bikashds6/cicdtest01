@@ -5,6 +5,9 @@ sap.ui.define([
 
     return Controller.extend("com.sony.testcicd.controller.home", {
         onInit() {
+        },
+        onPressBtn: function(oEvt){
+            prompt("Hello CI/CD");
         }
     });
 });
