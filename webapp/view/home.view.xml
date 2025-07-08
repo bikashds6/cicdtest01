@@ -3,6 +3,5 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <Button id="idCiCd" press="onPressBtn" text="CI/CD"/>
-        <Button id="idGo" text="Go"/>
     </Page>
 </mvc:View>
