@@ -8,6 +8,7 @@ sap.ui.define([
         },
         onPressBtn: function(oEvt){
             prompt("Hello CI/CD");
+            /* Deploy app into BTP */
         }
     });
 });
